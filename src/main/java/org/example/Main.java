@@ -19,6 +19,7 @@ public class Main {
 
         System.out.println("Please, remind me your name.");
         userName = sc.nextLine();
+        System.out.println("What a great name you have, "+ userName +"!");
         System.out.println("Let me guess your age.");
         System.out.println("Enter remainders of dividing your age by 3, 5 and 7.");
 
