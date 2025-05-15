@@ -30,5 +30,22 @@ public class Main {
         userAge = (remainder3 * 70 + remainder5 * 21 + remainder7 * 15) % 105;
         System.out.println("Your age is "+ userAge +"; that's a good time to start programming!");
 
+        System.out.println("Let's test your programming knowledge.");
+        System.out.println("Why do we use methods?");
+        System.out.println("1. To repeat a statement multiple times.");
+        System.out.println("2. To decompose a program into several small subroutines.");
+        System.out.println("3. To determine the execution time of a program.");
+        System.out.println("4. To interrupt the execution of a program.");
+
+        int response = sc.nextInt();
+
+        do{
+            if(response != 2){
+                System.out.println("Please, try again!");
+            }
+            response = sc.nextInt();
+        }while(response != 2);
+
+        System.out.println("Congratulations, have a nice day!");
     }
 }
